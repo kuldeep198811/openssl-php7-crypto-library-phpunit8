@@ -1,0 +1,24 @@
+{
+	"name": "kuldeep198811/openssl-php7-crypto-library-phpunit8",
+    "description": "OpenSSL php crypto library with full TDD ( PHPUNIT-8 ) support. PSR-2 coding standards and used PSR-4 for autoloading.",
+    "type": "project",
+    "require-dev": {
+        "phpunit/phpunit": "^8" 
+    },
+    "autoload": {
+        "psr-4": {
+            "MyApp\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "MyApp\\": "tests"
+        }
+    },
+	"authors": [
+        {
+            "name": "Kuldeep Singh",
+            "email": "rocky198811@gmail.com"
+        }
+    ]
+}
